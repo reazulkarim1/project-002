@@ -1,0 +1,886 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* globalcomment */
+a{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 600;
+}
+
+
+/* =============================================
+          header section style here
+================================================  */
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    clear: both;
+
+}
+.header .img{
+    height: 60px;
+    width: 50%;
+    padding-left: 10%;
+
+}
+.header .img img{
+    padding-top: 4px;
+    height: 46px;
+    padding-left: 12%;
+}
+
+.header .navigation{
+    width: 50%;
+}
+
+.header .navigation ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 4%;
+}
+.header .navigation ul li a{
+    font-weight: 600;
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+    transition-property: color;
+}
+.header .navigation ul li a:hover{
+    color: rgb(20, 219, 20);
+}
+/* =============================================
+          content section style here
+================================================  */
+.main{
+    display: flex;
+    height: 600px;
+    background-image: url('./img/slider-img-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+    
+}
+.main > .content {
+    z-index: 98;
+}
+
+.main .content{
+    height: 200px;
+    width: 30%;
+    padding-top: 260px;
+    margin-left: 50%;
+}
+.main .content h4{
+    font-size: 17px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main .content h2{
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 60px;
+}
+.main .content p{
+    font-size: 17px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button{
+    margin-left: 25%;
+    margin-top: 30px;
+}
+.main .content a{
+    padding: 10px 4%;
+    background-color: rgb(42, 179, 42);
+    color: #ffffff;
+    font-size: 12px;
+    margin-right: 4%;
+    border-radius: 4px;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+    transition-property: background-color;
+}
+.main .content a:hover{
+    background-color: rgb(26, 138, 26);
+}
+
+
+/* =============================================
+          content002 section style here
+================================================  */
+
+
+
+.textimg{
+    height: 387px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 70px 75px 0px 170px;
+}
+
+.img1 img{
+    height: 350px;
+}
+.text{
+    width: 55%;
+}
+.text h1{
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+    color: rgb(44, 41, 41);
+}
+.text p{
+    text-transform: lowercase;
+    color: rgb(49, 190, 80);
+    font-family: 'Secular One', sans-serif;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 102%;
+}
+
+.text h6{
+    text-transform: lowercase;
+    color: #706c6c;
+    font-size: 17px;
+    margin-top: 15px;
+    width: 101%;
+}
+
+.img1 img{
+    padding-left: 20px;
+}
+
+
+
+.bott{
+    display: flex;
+    margin-top: 30px;
+}
+
+.button3 h2{
+    height: 35px;
+    width: 120px;
+    border: 2px rgb(71, 153, 71) solid;
+    border-radius: 3px;
+    text-align: center;
+    transition-delay: 0.3;
+    transition-duration: 1s;
+    transition-property: background-color;
+    
+
+}
+
+.button3 h2:hover{
+    background-color: rgb(94, 197, 103);
+}
+
+.button3 h2 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(23, 121, 31);
+}
+
+
+.button4 h2{
+    height: 35px;
+    width: 135px;
+    border: 2px rgb(71, 153, 71) solid;
+    border-radius: 3px;
+    text-align: center;
+    transition-delay: 0.3;
+    transition-duration: 1s;
+    transition-property: background-color;
+    margin-left: 15px;
+}
+.button4 h2:hover{
+    background-color: rgb(94, 197, 103);
+}
+
+.button4 h2 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(23, 121, 31);
+}
+
+/* =============================================
+          content003 section style here
+================================================  */
+
+.one1{
+    background-color: #ece9e9;
+}
+.one{
+    padding: 60px 15%;
+}
+.one h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Secular One', sans-serif;
+
+}
+.one p{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px 18%;
+    font-size: 21px;
+    color: #5c5858;
+    font-weight: 700;
+}
+
+.one .list {
+    display: flex;
+    margin:20px 0px 50px 20%;
+}
+
+.list a{
+    padding-right: 6%;
+    margin: 20x 0px;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+    transition-property: color;
+}
+.list a:hover{
+    color: rgb(5, 170, 5);
+}
+
+
+.iimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6%;
+    padding-bottom: 20px;
+    
+}
+.iimg .mimg{
+    margin-right: 4%;
+}
+.iimg .mimg img{
+    height: 200px;
+}
+.mimg h3{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 12px;
+    color: black;
+    padding-left: 3%;
+}
+.mimg h6{
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 12px;
+    color: black;
+    padding-left: 3%;
+}
+.mimg h6 span{
+    color: rgb(16, 204, 16);
+    text-transform: uppercase;
+}
+
+
+
+
+.iimg .gimg{
+    margin-right: 4%;
+}
+.gimg h3{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 12px;
+    color: black;
+    padding-left: 3%;
+}
+.gimg h6{
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 12px;
+    color: black;
+    padding-left: 3%;
+}
+.gimg h6 span{
+    color: rgb(16, 204, 16);
+    text-transform: uppercase;
+}
+
+
+
+.iimg .gimg img{
+    height: 200px;
+}
+
+.iimg .vimg img{
+    height: 200px;
+    width: 92%;
+}
+.vimg h3{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 12px;
+    color: black;
+    padding-left: 3%;
+}
+.vimg h6{
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 12px;
+    color: black;
+    padding-left: 3%;
+}
+.vimg h6 span{
+    color: rgb(16, 204, 16);
+    text-transform: uppercase;
+}
+
+
+
+.nimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6%;
+    padding-bottom: 20px;
+    padding-left: 7%;
+    
+}
+
+
+.nimg .bimg{
+    margin-right: 4%;
+}
+.nimg .bimg img{
+    height: 200px;
+}
+.bimg h3{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 12px;
+    color: black;
+    padding-left: 3%;
+}
+.bimg h6{
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 12px;
+    color: black;
+    padding-left: 3%;
+}
+.bimg h6 span{
+    color: rgb(16, 204, 16);
+    text-transform: uppercase;
+}
+
+
+
+
+.nimg .cimg{
+    margin-right: 4%;
+}
+.nimg .cimg img{
+    height: 200px;
+}
+.cimg h3{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 12px;
+    color: black;
+    padding-left: 3%;
+}
+.cimg h6{
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 12px;
+    color: black;
+    padding-left: 3%;
+}
+.cimg h6 span{
+    color: rgb(16, 204, 16);
+    text-transform: uppercase;
+}
+
+
+
+.nimg .ximg{
+    margin-right: 4%;
+}
+.nimg .ximg img{
+    height: 200px;
+}
+.ximg h3{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 12px;
+    color: black;
+    padding-left: 3%;
+}
+.ximg h6{
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 12px;
+    color: black;
+    padding-left: 3%;
+}
+.ximg h6 span{
+    color: rgb(16, 204, 16);
+    text-transform: uppercase;
+}
+
+
+/* =============================================
+          content003 section style here
+================================================  */
+
+.green{
+    height: 300px;
+    background-color: rgb(0, 141, 0);
+}
+.body{
+    display: flex;
+    padding: 80px 0% 80px 7%;
+    margin: 0px 5%;
+    width: 80%;
+    text-align: center;
+}
+.text-content {
+    font-size: 20px;
+    width: 20%;
+}
+.text-content i{
+    color: #ffffff;
+    height: 50px;
+    font-size: 40px;
+}
+.text-content h2{
+    font-size: 30PX;
+    font-family: 'Secular One', sans-serif;
+    color: #ffffff;
+}
+.text-content h5{
+    font-family: 'Secular One', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+
+
+.text-content1 {
+    font-size: 20px;
+    width: 20%;
+}
+.text-content1 i{
+    color: #ffffff;
+    height: 50px;
+    font-size: 40px;
+}
+.text-content1 h2{
+    font-size: 30PX;
+    font-family: 'Secular One', sans-serif;
+    color: #ffffff;
+}
+.text-content1 h5{
+    font-family: 'Secular One', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+
+
+
+.text-content2 {
+    font-size: 20px;
+    width: 20%;
+}
+.text-content2 i{
+    color: #ffffff;
+    height: 50px;
+    font-size: 40px;
+}
+.text-content2 h2{
+    font-size: 30PX;
+    font-family: 'Secular One', sans-serif;
+    color: #ffffff;
+}
+.text-content2 h5{
+    font-family: 'Secular One', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+
+
+.text-content3 {
+    font-size: 20px;
+    width: 20%;
+}
+.text-content3 i{
+    color: #ffffff;
+    height: 50px;
+    font-size: 40px;
+}
+.text-content3 h2{
+    font-size: 30PX;
+    font-family: 'Secular One', sans-serif;
+    color: #ffffff;
+}
+.text-content3 h5{
+    font-family: 'Secular One', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/* =============================================
+          content004 section style here
+================================================  */
+
+.collect{
+    height: 680px;
+    background-color: #ece5e5;
+}
+.new{
+    padding: 100px 10%;
+
+}
+.text2{
+    height: 70px;
+    padding: 40px 20%;
+}
+.text2 h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 900;
+}
+.text2 p{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 10px 8%;
+    color: #312f2f;
+}
+
+
+
+
+.newimg{
+    display: flex;
+}
+
+.newimg .new1{
+    margin-right: 4%;
+}
+.newimg .new1 img{
+    height: 250px;
+}
+.new1 h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 15px;
+    color: rgb(22, 22, 22);
+    padding: 5px 0px 5px 3%;
+    font-family: 'Secular One', sans-serif;
+}
+.new1 h4{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 900;
+    font-size: 12px;
+    color: rgb(22, 22, 22);
+    padding-left: 3%;
+    font-family: 'Secular One', sans-serif;
+}
+.border{
+    height: 60px;
+    outline: 1px solid rgb(211, 209, 209);
+}
+
+
+
+
+
+
+.newimg .new2{
+    margin-right: 4%;
+    padding: 0px 3%;
+}
+.newimg .new2 img{
+    height: 250px;
+}
+.new2 h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 15px;
+    color: rgb(22, 22, 22);
+    padding: 5px 0px 5px 3%;
+    font-family: 'Secular One', sans-serif;
+}
+.new2 h4{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 900;
+    font-size: 12px;
+    color: rgb(22, 22, 22);
+    padding-left: 3%;
+    font-family: 'Secular One', sans-serif;
+}
+.border2{
+    height: 60px;
+    outline: 1px solid rgb(211, 209, 209);
+}
+
+
+
+
+.newimg .new3{
+    margin-right: 4%;
+}
+.newimg .new3 img{
+    height: 250px;
+}
+.new3 h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 15px;
+    color: rgb(22, 22, 22);
+    padding: 5px 0px 5px 3%;
+    font-family: 'Secular One', sans-serif;
+}
+.new3 h4{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 900;
+    font-size: 12px;
+    color: rgb(22, 22, 22);
+    padding-left: 3%;
+    font-family: 'Secular One', sans-serif;
+}
+.border3{
+    height: 60px;
+    outline: 1px solid rgb(211, 209, 209);
+}
+
+
+
+
+
+.newimg .new4{
+    margin-right: 4%;
+}
+.newimg .new4 img{
+    height: 250px;
+}
+.new4 h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 15px;
+    color: rgb(22, 22, 22);
+    padding: 5px 0px 5px 3%;
+    font-family: 'Secular One', sans-serif;
+}
+.new4 h4{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 900;
+    font-size: 12px;
+    color: rgb(22, 22, 22);
+    padding-left: 3%;
+    font-family: 'Secular One', sans-serif;
+}
+.border4{
+    height: 60px;
+    outline: 1px solid rgb(211, 209, 209);
+}
+
+/* =============================================
+          content005 section style here
+================================================  */
+
+.event{
+    height: 720px;
+    background-color: #d3d0d0;
+}
+.all{
+    padding: 70px 11%;
+}
+
+.textone{
+    height: 96px;
+}
+.textone h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Secular One', sans-serif;
+    font-size: 28px;
+}
+.textone p{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 20px 13%;
+    color: #333232;
+}
+
+
+
+.too{
+    display: flex;
+}
+
+.imgtext{
+    width: 50%;
+    margin-right: 1.2%;
+}
+.imgtext img{
+    width: 100%;
+}
+
+
+.imgtext1{
+    width: 50%;
+    margin-left: 1.2%;
+}
+.imgtext1 img{
+    width: 100%;
+}
+
+
+
+.htext{
+    width: 92%;
+    height: 170px;
+    padding: 20px;
+    outline: 0.1px solid rgb(180, 179, 179);
+}
+
+.htext h2{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Secular One', sans-serif;
+}
+
+.htext h5 {
+    color: #9e9595;
+    padding-bottom: 10px;
+}
+
+.htext h4{
+    color: #3b3838;
+}
+
+.htext h6{
+    height: 30px;
+    background-color: #e2e2e2;
+    width: 22%;
+    padding-top: 15px;
+    padding-left: 7%;
+    margin-top: 10px;
+    border: 1px solid green;
+    border-radius: 3px;
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+    transition-property: background-color;
+}
+
+.htext h6:hover{
+    background-color: #d1d1d1;
+}
+
+.htext h6 a{
+    font-size: 13px !important;
+    color: green !important;
+    
+}
+
+/* =============================================
+          content006 section style here
+================================================  */
+
+.top{
+    width: 100%;
+    height: 420px;
+    background-color: #f1f1f1;
+}
+.al{
+    width: 96%;
+    height: 340px;
+    margin: 0px 4%;
+    padding-top: 40px;
+}
+
+.pp {
+    height: 100px;
+}
+
+.pp h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Secular One', sans-serif;
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+.pp p{
+    text-align: center;
+    padding: 5px 16%;
+    font-weight: bold;
+    font-family: 'Secular One', sans-serif;
+    color: #7a7a7a;
+}
+
+.imgo{
+    display: flex;
+    margin-top: 50px;
+}
+.imgo img{
+    width: 22%;
+    height: 130px;
+    padding-right: 3%;
+}
